@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import GameList from "./GameList";
-import SearchExampleCategoryCustom from 'search';
+/*import SearchExampleCategoryCustom from 'search';*/
 
 const games=[{
     title:"gta",
@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <SearchExampleCategoryCustom/>
+          {/*<SearchExampleCategoryCustom/>*/}
           <GameList games={games}/>
       </div>
     );
